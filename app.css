@@ -9,12 +9,12 @@ body {
 }
 .body-section-flex {
     padding: 0px 150px;
+    height: 941px;
     display: flex;
     flex-flow: column wrap;
 }
 .section-1 {
     width: 450px;
-    height: 921px;
 }
 .heading {
     background: #f8f8f8;
@@ -137,9 +137,11 @@ body {
 #thead {
     background-color: #25975a;
     border: 1px solid white;
+    color: white;
 }
 .empty {
     background-color: white;
+    color: #666666;
 }
 .mathS {
     background-color: #76bd49;
@@ -208,4 +210,31 @@ body {
     background-color: #edfbf6;
     color: #32d296;
     padding: 19px 15px;
+}
+.section-2 {
+    width: 690px;
+}
+img {
+    padding: 10px 280px;
+    width: 130px;
+}
+.section-2 h1 {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 138px auto;
+    grid-template-rows: 97px 97px 97px 97px 60px 60px 60px;
+}
+.schedule-grid div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.schedule-grid .empty {
+    border: 1px solid gray;
 }
