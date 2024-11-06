@@ -36,5 +36,53 @@ body {
 }
 #groups {
     background-color: white;
-    color: #25975a;
+    color: black;
+}
+.student-mode {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.student-mode p {
+    color: white;
+    font-weight: bold;
+}
+.slider-container {
+    background-color: #25975a;
+    width: 60px;
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 4px;
+}
+.slider {
+    background-color: white;
+    width: 26px;
+    height: 26px;
+}
+.search-bar {
+    margin-top: 40px;
+    background-color: white;
+    height: 40px;
+    padding: 1px 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #666;
+}
+.search-result {
+    margin-top: 20px;
+    background-color: white;
+    height: 100px;
+}
+.result {
+    background-color: #25975a;
+    height: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
 }
