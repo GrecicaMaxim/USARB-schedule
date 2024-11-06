@@ -9,9 +9,12 @@ body {
 }
 .body-section-flex {
     padding: 0px 150px;
+    display: flex;
+    flex-flow: column wrap;
 }
 .section-1 {
     width: 450px;
+    height: 921px;
 }
 .heading {
     background: #f8f8f8;
@@ -66,11 +69,16 @@ body {
     margin-top: 40px;
     background-color: white;
     height: 40px;
-    padding: 1px 40px;
+    padding: 1px 12px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
     color: #666;
+}
+.search-flex {
+    display: flex;
+    gap: 15px;
 }
 .search-result {
     margin-top: 20px;
@@ -85,4 +93,119 @@ body {
     color: white;
     display: flex;
     align-items: center;
+}
+.fa-magnifying-glass {
+    color: #25975a;
+}
+.fa-xmark {
+    color: #f0506e;
+}
+.week-box {
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+}
+.week {
+    font-weight: bold;
+}
+.carets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.table {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 114px 48px 48px 48px 48px 48px 48px 48px;
+    grid-template-rows: 21px 24px 24px 24px 24px 24px 24px 24px;
+}
+.table div {
+    color: white;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#thead {
+    background-color: #25975a;
+    border: 1px solid white;
+}
+.empty {
+    background-color: white;
+}
+.mathS {
+    background-color: #76bd49;
+}
+.webEP {
+    background-color: #8080c0;
+}
+.str-discr {
+    background-color: #f2d6f8;
+}
+.mathEP {
+    background-color: #ff8000;
+}
+.appgen {
+    background-color: #ff0080;
+}
+.bp {
+    background-color: #008000;
+}
+.webL {
+    background-color: #a3f1bc;
+}
+.engl {
+    background-color: #402000;
+}
+.bpL {
+    color: black;
+    background-color: #ffff00;
+}
+.abbr-flex {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.def {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.download-exams-flex {
+    display: flex;
+}
+.download-exams-flex a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 2px 10px;
+    margin-left: 10px;
+}
+#download {
+    margin-left: 0px;
+    background-color: #25975a;
+    border: 1px solid white;
+}
+.exams {
+    background-color: #f0506e;
+}
+.plans {
+    background-color: #7b4669;
+}
+.service-passive {
+    margin-top: 20px;
+    background-color: #edfbf6;
+    color: #32d296;
+    padding: 19px 15px;
 }
