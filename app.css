@@ -8,10 +8,33 @@ body {
     min-height: 100vh;
 }
 .body-section-flex {
-    padding: 0px 40px;
+    padding: 0px 150px;
+}
+.section-1 {
+    width: 450px;
 }
 .heading {
     background: #f8f8f8;
-    margin: 0px 0px 20px;
+    margin: 20px 0px 20px;
     padding: 15px;
+}
+.heading h1 {
+    color: #666;
+    font-size: 24px;
+    text-align: center;
+}
+.groups-teachers-rooms {
+    display: flex;
+    justify-content: space-between;
+}
+.groups-teachers-rooms a {
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #25975a;
+    color: white;
+    font-weight: bold;
+}
+#groups {
+    background-color: white;
+    color: #25975a;
 }
